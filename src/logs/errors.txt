@@ -1,0 +1,19 @@
+
+ 1667315062747: An error occured: Illegal arguments: undefined, string
+ 1667316802284: An error occured: Illegal arguments: undefined, string
+ 1667316821334: An error occured: Illegal arguments: undefined, string
+ 1667317006771: An error occured: Illegal arguments: undefined, string
+ 1667326151639: An error occured: Illegal arguments: undefined, string
+ 1667326508250: An error occured: Illegal arguments: undefined, string
+ 1667326511566: An error occured: Illegal arguments: undefined, string
+ 1667326746906: An error occured: Illegal arguments: undefined, string
+ 1667326752507: An error occured: Illegal arguments: undefined, string
+ 1667326832839: An error occured: Illegal arguments: undefined, string
+ 1667343523208: An error occured: Illegal arguments: undefined, string
+ 1667343525358: An error occured: Illegal arguments: undefined, string
+ 1667344379066: An error occured: Illegal arguments: undefined, string
+ 1667346742805: An error occured: Illegal arguments: undefined, string
+ 1667347410188: An error occured: Illegal arguments: undefined, string
+ 1667527064515: An error occured: E11000 duplicate key error collection: test.users index: userName_1 dup key: { userName: "ike-Njoku" }
+ 1667527186953: An error occured: E11000 duplicate key error collection: test.users index: userName_1 dup key: { userName: "ike-Njoku" }
+ 1667576011486: An error occured: User validation failed: email: Path `email` is required.
