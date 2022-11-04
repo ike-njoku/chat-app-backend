@@ -10,12 +10,12 @@ export const createNewUser = async (req: Request, res: Response) => {
   try {
     const {
       userName,
-      emailAddress,
+      email,
       password
     } = req.body;
 
     const user =  await handleCreateUser(req.body);
-    if (!user) return sendJsonResponse(res, 500, {
+    if (!user) return sendJsonResponse(res, 200, {
       message: 'Could not create user',
       data: null,
       status: 'fail'
@@ -28,6 +28,11 @@ export const createNewUser = async (req: Request, res: Response) => {
     });
     
   } catch (error) {
-    return logError(error)
+    logError(error)
+    return sendJsonResponse(res, 500, {
+      message: "An error occured",
+      status: "fail",
+      data: error
+    })
   }
 }

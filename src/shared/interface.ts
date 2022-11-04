@@ -8,5 +8,5 @@ export interface APIResponse {
 export interface NewUserDTO {
   userName: string;
   password: string;
-  emailAddress: string;
+  email: string;
 }

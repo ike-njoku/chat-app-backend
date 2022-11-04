@@ -7,7 +7,7 @@ import { User } from "./user.schema"
 export const handleCreateUser = async (newUserDto: NewUserDTO): Promise<any> => {
   newUserDto.password = hashUserPassword(newUserDto.password);
   try {
-    const user = await User.create(newUserDto)
+    const user = await User.create(newUserDto);
     return user;
   } catch (error) {
     return logError(error);

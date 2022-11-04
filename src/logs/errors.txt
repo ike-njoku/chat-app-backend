@@ -17,3 +17,44 @@
  1667527064515: An error occured: E11000 duplicate key error collection: test.users index: userName_1 dup key: { userName: "ike-Njoku" }
  1667527186953: An error occured: E11000 duplicate key error collection: test.users index: userName_1 dup key: { userName: "ike-Njoku" }
  1667576011486: An error occured: User validation failed: email: Path `email` is required.
+ 1667577289429: An error occured: User validation failed: email: Path `email` is required.
+ 1667577349533: An error occured: Illegal arguments: undefined, string
+ 1667577387730: An error occured: Illegal arguments: undefined, string
+ 1667577475567: An error occured: Illegal arguments: undefined, string
+ 1667577648603: An error occured: E11000 duplicate key error collection: chat-app.users index: userName_1 dup key: { userName: "ike-Njoku" }
+ 1667577649777: An error occured: E11000 duplicate key error collection: chat-app.users index: userName_1 dup key: { userName: "ike-Njoku" }
+ 1667577650610: An error occured: E11000 duplicate key error collection: chat-app.users index: userName_1 dup key: { userName: "ike-Njoku" }
+ 1667577722854: An error occured: Illegal arguments: undefined, string
+ 1667577724318: An error occured: Illegal arguments: undefined, string
+ 1667577725073: An error occured: Illegal arguments: undefined, string
+ 1667577725633: An error occured: Illegal arguments: undefined, string
+ 1667577725855: An error occured: Illegal arguments: undefined, string
+ 1667577726061: An error occured: Illegal arguments: undefined, string
+ 1667577726315: An error occured: Illegal arguments: undefined, string
+ 1667577726558: An error occured: Illegal arguments: undefined, string
+ 1667577726777: An error occured: Illegal arguments: undefined, string
+ 1667577727010: An error occured: Illegal arguments: undefined, string
+ 1667577727189: An error occured: Illegal arguments: undefined, string
+ 1667577727411: An error occured: Illegal arguments: undefined, string
+ 1667577727624: An error occured: Illegal arguments: undefined, string
+ 1667577727790: An error occured: Illegal arguments: undefined, string
+ 1667577728009: An error occured: Illegal arguments: undefined, string
+ 1667577728190: An error occured: Illegal arguments: undefined, string
+ 1667577728391: An error occured: Illegal arguments: undefined, string
+ 1667577728609: An error occured: Illegal arguments: undefined, string
+ 1667577728771: An error occured: Illegal arguments: undefined, string
+ 1667577728975: An error occured: Illegal arguments: undefined, string
+ 1667577729189: An error occured: Illegal arguments: undefined, string
+ 1667577729372: An error occured: Illegal arguments: undefined, string
+ 1667577832287: An error occured: E11000 duplicate key error collection: chat-app.users index: userName_1 dup key: { userName: "ike-Njoku" }
+ 1667577985591: An error occured: E11000 duplicate key error collection: chat-app.users index: userName_1 dup key: { userName: "ike-Njoku" }
+ 1667578038913: An error occured: Illegal arguments: undefined, string
+ 1667578065101: An error occured: Illegal arguments: undefined, string
+ 1667578066058: An error occured: Illegal arguments: undefined, string
+ 1667578067857: An error occured: Illegal arguments: undefined, string
+ 1667578068727: An error occured: Illegal arguments: undefined, string
+ 1667578068915: An error occured: Illegal arguments: undefined, string
+ 1667578069080: An error occured: Illegal arguments: undefined, string
+ 1667578069306: An error occured: Illegal arguments: undefined, string
+ 1667578069631: An error occured: Illegal arguments: undefined, string
+ 1667578069808: An error occured: Illegal arguments: undefined, string
