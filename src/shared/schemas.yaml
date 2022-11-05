@@ -1,0 +1,64 @@
+components: 
+  schemas: 
+    #API response
+    API_RESPONSE:
+      title: Api Response DTO
+      type: object
+      description: API response data transfer object / interface
+      properties:
+        success:
+          type: string
+          enum: ["success", "fail"]
+          description: API response type, success of failure
+          example: "success"
+        message:
+          type: string
+          description: API response message
+          example: 'Successfully logged in'
+        data: 
+          type: 
+          description: Data passed in API response
+          example: [{'userName': 'john doe'}]
+          
+    #USERS: Create new user
+    NEW_USER_DTO:
+      title: New user
+      type: object
+      description: request body
+      properties:
+        userName:  
+          type: string
+          required: true
+          description: Name of the user
+          example: 'John Doe'
+        email: 
+          type: string
+          required: true
+          description: Email address of the user
+          example: 'John@doe.com'
+        password: 
+          type: string
+          required: true
+          description: Password of the user
+          example: '$2a$08$hMbGNJGlOkC/fq3b/1OE/erKxxKjuM5VVwB651FCHHptc.k7NX6EO'
+    
+/users/create:
+  post:
+      tags:
+        - USER
+      description: 
+      requestBody: 
+        description: 
+        required: true
+        content: 
+          application/json:
+            schema: 
+              $ref: '#components/schemas/NEW_USER_DTO'
+                
+      responses: 
+        201: 
+          description: OK
+          content: 
+            contentType: 
+              schema: 
+                $ref: '#components/schemas/NEW_USER_DTO'

@@ -1,9 +1,6 @@
 import { Request, Response } from "express";
-import { hashUserPassword } from "../auth/auth.service";
 import { logError } from "../logger";
-import { APIResponse } from "../shared/interface";
 import { sendJsonResponse } from "../shared/utilities/sendJsonResponse";
-import { UserModel } from "./user.schema";
 import { handleCreateUser } from "./user.service";
 
 export const createNewUser = async (req: Request, res: Response) => {

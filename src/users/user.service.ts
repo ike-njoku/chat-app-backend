@@ -1,4 +1,4 @@
-import { Document } from "mongoose";
+import { Document, Error } from "mongoose";
 import { hashUserPassword } from "../auth/auth.service";
 import { logError } from "../logger";
 import { NewUserDTO } from "../shared/interface"
