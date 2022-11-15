@@ -5,7 +5,8 @@ import { createApplicationLogs } from './logger';
 import {app} from './app';
 import { connectDB } from './db';
 import { swaggerSpecs } from './swagger-docs-specs';
-import swaggerUI from 'swagger-ui-express'
+import swaggerUI from 'swagger-ui-express';
+require('dotenv').config();
 const PORT = 4000;
 createApplicationLogs();
 

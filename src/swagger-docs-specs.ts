@@ -16,7 +16,7 @@ const swaggerOptions: swaggerUI.SwaggerOptions = {
       }
     ]
   },
-  apis: './src/shared/schemas.yaml'
+  apis: ['./src/shared/schemas.yaml']
 }
 
 export const swaggerSpecs = swaggerJSDoc(swaggerOptions);

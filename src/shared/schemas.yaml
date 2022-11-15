@@ -41,24 +41,63 @@ components:
           required: true
           description: Password of the user
           example: '$2a$08$hMbGNJGlOkC/fq3b/1OE/erKxxKjuM5VVwB651FCHHptc.k7NX6EO'
+
+    #Authenticate user
+    AUTHENTICATE_USER_DTO:
+      title: Authenticate User DTO
+      type: object
+      description: request body
+      properties:
+        userName: 
+          type: string
+          description: the email address of the user
+          example: abc@example.com
+          required: true
+        password: 
+          type: string
+          description: Password of the user
+          example: Password123!
+          required: true
+          
     
 /users/create:
   post:
-      tags:
-        - USER
+    tags:
+      - USER
+    description: 
+    requestBody: 
       description: 
-      requestBody: 
-        description: 
-        required: true
+      required: true
+      content: 
+        application/json:
+          schema: 
+            $ref: '#components/schemas/NEW_USER_DTO'
+    responses: 
+      201: 
+        description: OK
         content: 
-          application/json:
+          contentType: 
             schema: 
               $ref: '#components/schemas/NEW_USER_DTO'
-                
-      responses: 
-        201: 
-          description: OK
-          content: 
-            contentType: 
-              schema: 
-                $ref: '#components/schemas/NEW_USER_DTO'
+
+#Authenticate user
+/auth/sign-in:
+  post:
+    tags:
+      - Auth
+    description: Authenticate user
+    requestBody: 
+      description: 
+      required: true
+      content: 
+        application/json:
+          schema: 
+            $ref: '#components/schemas/AUTHENTICATE_USER_DTO'
+              
+    responses: 
+      201: 
+        description: OK
+        content: 
+          contentType: 
+            schema: 
+              $ref: '#components/schemas/NEW_USER_DTO'

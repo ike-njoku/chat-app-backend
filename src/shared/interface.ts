@@ -5,6 +5,16 @@ export interface APIResponse {
   data: any;
 }
 
+export interface SignJWTDto {
+  userName: string;
+  email: string;
+}
+
+export interface UserLogInDTO {
+  userName: string;
+  password: string;
+}
+
 export interface NewUserDTO {
   userName: string;
   password: string;
