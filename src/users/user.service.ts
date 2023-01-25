@@ -6,8 +6,6 @@ import { User } from "./user.schema"
 
 export const handleCreateUser = async (newUserDto: NewUserDTO): Promise<any> => {
   newUserDto.password = hashUserPassword(newUserDto.password);
-  console.log('logging password')
-  console.log(newUserDto.password);
   try {
     const user = await User.create(newUserDto);
     const userJWT = signJWT({userName: user.userName, email: user.email});

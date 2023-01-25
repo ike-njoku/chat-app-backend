@@ -7,7 +7,7 @@ import { connectDB } from './db';
 import { swaggerSpecs } from './swagger-docs-specs';
 import swaggerUI from 'swagger-ui-express';
 require('dotenv').config();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 createApplicationLogs();
 
 app.use('/app-docs', swaggerUI.serve, swaggerUI.setup(swaggerSpecs));

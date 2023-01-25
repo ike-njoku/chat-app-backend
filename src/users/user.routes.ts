@@ -3,5 +3,3 @@ import { createNewUser } from './user.controller';
 export const userRoutes = express.Router();
 
 userRoutes.post('/create', createNewUser);
-
-userRoutes.post('/log-in', )

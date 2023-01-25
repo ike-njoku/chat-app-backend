@@ -10,7 +10,7 @@ export const hashUserPassword = (password: string): string => {
 }
 
 //compare passwords
-const passwordsAreSame = (password1: string, password2: string): boolean => {
+export const passwordsAreSame = (password1: string, password2: string): boolean => {
   return bcryptjs.compareSync(password1, password2);
 }
 

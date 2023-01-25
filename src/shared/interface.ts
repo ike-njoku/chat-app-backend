@@ -1,3 +1,5 @@
+import mongoose, { ObjectId } from "mongoose";
+
 type APIResponseStatusType = 'success' | 'fail';
 export interface APIResponse {
   message: string;
@@ -19,4 +21,13 @@ export interface NewUserDTO {
   userName: string;
   password: string;
   email: string;
+}
+
+export interface User {
+
+}
+
+export interface CreateChatRoomDTO {
+  createdBy:ObjectId | string; 
+  participants: User[];
 }

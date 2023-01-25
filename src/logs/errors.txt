@@ -59,3 +59,26 @@
  1667578069631: An error occured: Illegal arguments: undefined, string
  1667578069808: An error occured: Illegal arguments: undefined, string
  1667598729042: An error occured: Illegal arguments: undefined, string
+ 1668993967139: An error occured: Operation `users.insertOne()` buffering timed out after 10000ms
+ 1668993967146: An error occured: Cannot read properties of undefined (reading 'get')
+ 1668994072114: An error occured: Operation `users.insertOne()` buffering timed out after 10000ms
+ 1668994072119: An error occured: Cannot read properties of undefined (reading 'get')
+ 1668997347762: An error occured: Operation `users.insertOne()` buffering timed out after 10000ms
+ 1668997347767: An error occured: Cannot read properties of undefined (reading 'get')
+ 1668997518605: An error occured: Operation `users.insertOne()` buffering timed out after 10000ms
+ 1668997518612: An error occured: Cannot read properties of undefined (reading 'get')
+ 1668997533466: An error occured: Operation `users.insertOne()` buffering timed out after 10000ms
+ 1668997533473: An error occured: Cannot read properties of undefined (reading 'get')
+ 1668997556334: An error occured: Operation `users.insertOne()` buffering timed out after 10000ms
+ 1668997556341: An error occured: Cannot read properties of undefined (reading 'get')
+ 1668999098666: An error occured: Operation `users.insertOne()` buffering timed out after 10000ms
+ 1668999098670: An error occured: Cannot read properties of undefined (reading 'get')
+ 1668999501524: An error occured: Operation `users.insertOne()` buffering timed out after 10000ms
+ 1668999501531: An error occured: Cannot read properties of undefined (reading 'get')
+ 1668999528989: An error occured: Operation `users.insertOne()` buffering timed out after 10000ms
+ 1668999528996: An error occured: Cannot read properties of undefined (reading 'get')
+ 1668999546579: An error occured: Operation `users.insertOne()` buffering timed out after 10000ms
+ 1668999546584: An error occured: Cannot read properties of undefined (reading 'get')
+ 1669055204870: An error occured: Illegal arguments: undefined, string
+ 1669055206503: An error occured: Illegal arguments: undefined, string
+ 1669055323737: An error occured: Illegal arguments: undefined, string
