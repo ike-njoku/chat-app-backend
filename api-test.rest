@@ -1,8 +1,8 @@
-post http://localhost:4000/users/create
+POST http://localhost:4000/users/create
 Content-Type: 'application/json'
 
 {
-  "userName": "ike-Njoku",
-  "password": "Password0n1",
-  "email": "ikenjokudc@gmail.com"
+  "userName": "ikenjokudc",
+  "email": "ikenjokudc@gmail.com",
+  "password": "some password"
 }

@@ -1,15 +1,17 @@
-import { Request, Response } from "express";
+import { request, Request, response, Response } from "express";
 import { logError } from "../logger";
 import { sendJsonResponse } from "../shared/utilities/sendJsonResponse";
 import { handleCreateUser } from "./user.service";
 
+console.log(request);
 export const createNewUser = async (req: Request, res: Response) => {
-  try {
+  try { 
     const {
       userName,
       email,
       password
     } = req.body;
+    console.table(req.body)
 
     const user =  await handleCreateUser(req.body);
     if (!user) return sendJsonResponse(res, 200, {

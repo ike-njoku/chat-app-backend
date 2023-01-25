@@ -82,3 +82,66 @@
  1669055204870: An error occured: Illegal arguments: undefined, string
  1669055206503: An error occured: Illegal arguments: undefined, string
  1669055323737: An error occured: Illegal arguments: undefined, string
+ 1674648683173: An error occured: Illegal arguments: undefined, string
+ 1674648884180: An error occured: Illegal arguments: undefined, string
+ 1674648885215: An error occured: Illegal arguments: undefined, string
+ 1674648886381: An error occured: Illegal arguments: undefined, string
+ 1674648918719: An error occured: Illegal arguments: undefined, string
+ 1674649213048: An error occured: Illegal arguments: undefined, string
+ 1674649628944: An error occured: Illegal arguments: undefined, string
+ 1674650993033: An error occured: User validation failed: email: Path `email` is required., userName: Path `userName` is required.
+ 1674650995988: An error occured: User validation failed: email: Path `email` is required., userName: Path `userName` is required.
+ 1674651142286: An error occured: Illegal arguments: undefined, string
+ 1674651335073: An error occured: Illegal arguments: undefined, string
+ 1674651337761: An error occured: Illegal arguments: undefined, string
+ 1674651339022: An error occured: Illegal arguments: undefined, string
+ 1674651472136: An error occured: Illegal arguments: undefined, string
+ 1674651668860: An error occured: Illegal arguments: undefined, string
+ 1674652067675: An error occured: Illegal arguments: undefined, string
+ 1674652132926: An error occured: Illegal arguments: undefined, string
+ 1674652133814: An error occured: Illegal arguments: undefined, string
+ 1674652134797: An error occured: Illegal arguments: undefined, string
+ 1674652451503: An error occured: User validation failed: email: Path `email` is required., userName: Path `userName` is required., password: Path `password` is required.
+ 1674652532733: An error occured: User validation failed: email: Path `email` is required., userName: Path `userName` is required., password: Path `password` is required.
+ 1674652576849: An error occured: User validation failed: email: Path `email` is required., userName: Path `userName` is required., password: Path `password` is required.
+ 1674652729349: An error occured: Illegal arguments: undefined, string
+ 1674652813095: An error occured: Illegal arguments: undefined, string
+ 1674652897162: An error occured: Illegal arguments: undefined, string
+ 1674653042826: An error occured: Illegal arguments: undefined, string
+ 1674657858612: An error occured: Illegal arguments: undefined, string
+ 1674657959376: An error occured: The "properties" argument must be an instance of Array. Received an instance of Object
+ 1674658830412: An error occured: The "properties" argument must be an instance of Array. Received an instance of Object
+ 1674659708747: An error occured: Illegal arguments: undefined, string
+ 1674659831754: An error occured: Cannot destructure property 'userName' of 'req.body' as it is undefined.
+ 1674660077259: An error occured: Cannot destructure property 'userName' of 'req.body' as it is undefined.
+ 1674666811236: An error occured: Illegal arguments: undefined, string
+ 1674666839545: An error occured: Illegal arguments: undefined, string
+ 1674666841880: An error occured: Illegal arguments: undefined, string
+ 1674666965744: An error occured: Illegal arguments: undefined, string
+ 1674666967683: An error occured: Illegal arguments: undefined, string
+ 1674666979110: An error occured: Illegal arguments: undefined, string
+ 1674666981522: An error occured: Illegal arguments: undefined, string
+ 1674666982500: An error occured: Illegal arguments: undefined, string
+ 1674666983114: An error occured: Illegal arguments: undefined, string
+ 1674667123025: An error occured: Illegal arguments: undefined, string
+ 1674667125064: An error occured: Illegal arguments: undefined, string
+ 1674667125882: An error occured: Illegal arguments: undefined, string
+ 1674667126584: An error occured: Illegal arguments: undefined, string
+ 1674667129481: An error occured: Illegal arguments: undefined, string
+ 1674667150362: An error occured: Illegal arguments: undefined, string
+ 1674667152310: An error occured: Illegal arguments: undefined, string
+ 1674667153001: An error occured: Illegal arguments: undefined, string
+ 1674667153541: An error occured: Illegal arguments: undefined, string
+ 1674667153996: An error occured: Illegal arguments: undefined, string
+ 1674667154728: An error occured: Illegal arguments: undefined, string
+ 1674667155163: An error occured: Illegal arguments: undefined, string
+ 1674667155558: An error occured: Illegal arguments: undefined, string
+ 1674667156039: An error occured: Illegal arguments: undefined, string
+ 1674667162311: An error occured: Illegal arguments: undefined, string
+ 1674667277286: An error occured: Illegal arguments: undefined, string
+ 1674667278799: An error occured: Illegal arguments: undefined, string
+ 1674667279652: An error occured: Illegal arguments: undefined, string
+ 1674667280328: An error occured: Illegal arguments: undefined, string
+ 1674667280946: An error occured: Illegal arguments: undefined, string
+ 1674667326169: An error occured: E11000 duplicate key error collection: chat-app.users index: userName_1 dup key: { userName: "ikenjokudc" }
+ 1674667378778: An error occured: E11000 duplicate key error collection: chat-app.users index: userName_1 dup key: { userName: "John Doe" }

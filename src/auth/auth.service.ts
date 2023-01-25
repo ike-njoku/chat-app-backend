@@ -5,8 +5,7 @@ import jwt from 'jsonwebtoken';
 import { User } from '../users/user.schema';
 
 export const hashUserPassword = (password: string): string => {
-  console.log(process.env.JWT_SECRET)
-  return bcryptjs.hashSync(password, 8);
+  return bcryptjs.hashSync(password, bcryptjs.genSaltSync(8));
 }
 
 //compare passwords
